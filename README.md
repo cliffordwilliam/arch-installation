@@ -553,6 +553,7 @@ The edits on waybar are also commited to remote repo
 
 Waybar uses 2 files, one to determine what to render and the other is css
 - ~/.config/waybar/config
+- /etc/xdg/waybar/style.css
 
 Shortcut to restart waybar
 ```bash
@@ -782,3 +783,19 @@ If you follow the 8-step checklist:
 * You catch vulnerabilities early
 * Your logs don’t silently fill with issues
 * You back up critical configs
+
+---
+
+## Reinstall all pacman packages from here
+
+Better follow the steps here and just use them as reference in case something does not work
+
+dump
+```bash
+pacman -Qqe > pkglist.txt
+```
+
+install
+```bash
+sudo pacman -S --needed - < pkglist.txt
+```
