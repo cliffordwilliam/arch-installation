@@ -494,6 +494,8 @@ My machine is using intel graphic, so I did not install any drivers
 
 ## XDG_RUNTIME_DIR
 
+I think this is bad consult chatgpt again on this
+
 These are for temp files dir
 
 Manually set env var
@@ -576,6 +578,9 @@ The customization for it is commited to remote repo as well
 ```bash
 sudo pacman -S firefox
 ```
+
+Better to setup audio first before installing browser, check with chatgpt on this
+
 I picked jack2, default
 
 When you enter google serach results, it may be in Indo
